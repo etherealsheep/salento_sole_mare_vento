@@ -28,7 +28,7 @@ h1, h2 {
 
 #menu {
     font-size: 110%;
-    line-height: 250px;
+    line-height: 550px;
 }
 
 #menu li {
@@ -39,7 +39,7 @@ h1, h2 {
 
 #menu a {
     text-decoration: none;
-    color: chocolate;
+    color: white;
 }
 
 #menu a:hover {
@@ -48,4 +48,17 @@ h1, h2 {
 
 .active {
     border-bottom: 1px solid orange;
+}
+
+/* villa sticchi image */
+
+#roca {
+	background-image: url('../images/roca-salento.webp ');
+	min-height: 300px;
+	max-width: 100%;
+	height: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
 }
