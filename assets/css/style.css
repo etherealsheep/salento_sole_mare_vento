@@ -30,7 +30,7 @@ hr {
     margin: 0;
 }
 
-/* NAVIGATION */
+/* NAVIGATION REFERENCE - https://devcom.w3schools.com/css/css_navbar_horizontal.asp */
 
 #logo {
     float: left;
@@ -97,22 +97,14 @@ li a:hover {
 }
 
 /* FOOTER STYLE */
-footer {
-    padding: 0;
-    height: 150px;
-}
-
-#social-networks {
+.footer {
+    width: 100%;
+    background-color: chocolate;
+    position: absolute;
+    color: white;
     text-align: center;
 }
 
-#social-networks li {
+.social-networks li {
     list-style-type: none;
-    display: inline;
-}
-
-#social-networks i {
-    font-size: 200%;
-    color: chocolate;
-    padding: 6%;
 }
