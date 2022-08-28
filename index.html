@@ -8,7 +8,9 @@
     <meta name="keywords" content="salento, sole, mare, vento, south italy, travel">
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- STYLESHEET FOR FANCYBOX - REFERENCE http://fancybox.net/howto #3 -->
-    <link rel="stylesheet" href="/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+    <!-- link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" / -->
+    <link rel="stylesheet" type="text/css" href="jquery.fancybox.min.css">
+    
     <title>Salentu! Sule, Mare Ientu</title>
 </head>
 <body>
@@ -69,8 +71,32 @@
     <!-- END OF SALENTO LIFE SECTION -->
     <hr>
     <!-- START OF MUST SEE SECTION - THIS IS THE LIST OF PLACE TO VISIT -->
-    <section>
-        <h2 class="history">Must See</h2>
+    <section id="fancybox" class="clear">
+        <h2 class="must_see">Must See</h2>
+        <!-- FANCYBOX GUIDE HERE https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/ -->
+        <div class="container">
+            <div id="gallery">
+                <a href="assets/images/santa_croce.jpeg" data-fancybox="gallery" data-caption="Santa Croce, church in the heart of Lecce" id="gallery__item--1">
+                <img src="/assets/images/santa_croce.jpeg" srcset="assets/images/santa_croce.jpeg"
+                class="fancybox-photo" alt="Santa Croce" sizes="20vw" />
+                </a>
+
+                <a href="assets/images/ciceri_tria.jpeg" data-fancybox="gallery" data-caption="Ciceri e Tria, typical lunch" id="gallery__item--2">
+                <img src="/assets/images/ciceri_tria.jpeg" srcset="assets/images/ciceri_tria.jpeg" 
+                class="fancybox-photo" alt="Ciceri Tria" sizes="20vw" />
+                </a>
+
+                <a href="assets/images/cava_bauxite.jpg" data-fancybox="gallery" data-caption="Bauxite cave in Otranto" id="gallery__item--3">
+                <img src="/assets/images/cava_bauxite.jpg" srcset="assets/images/cava_bauxite.jpg" 
+                class="fancybox-photo" alt="Cava Bauxite" sizes="20vw" />
+                </a>
+
+                <a href="assets/images/scogliera.jpg" data-fancybox="gallery" data-caption="Torre S.Andrea" id="gallery__item--4">
+                <img src="/assets/images/scogliera.jpg" srcset="assets/images/scogliera.jpg" 
+                class="fancybox-photo" alt="Adriatic coastal scenario" sizes="20vw" />
+                </a>
+            </div>
+        </div>
     </section>
     <!-- END OF MUST SEE SECTION -->
     <hr>
@@ -106,12 +132,7 @@
     <!-- END OF THE FOOTER -->
     <!--  SCRIPT FONT AWESOME (ICONS ADDED FROM FONT AWESOME https://fontawesome.com)  -->
     <script src="https://kit.fontawesome.com/5a6f4da4aa.js" crossorigin="anonymous"></script>
-    <!-- SCRIPT FANCYBOX - REFERENCE http://fancybox.net/howto #2 -->
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
-    <script type="text/javascript" src="/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-    <!-- ADD TRANSITIONS AS JQUERY BY DEFAULT SUPPORTS ONLY "SWING" AND "LINEAR" -->
-    <script type="text/javascript" src="/fancybox/jquery.easing-1.4.pack.js"></script>
-    <!-- ENABLE "MOUSE-WHEEL" TO NAVIGATE THROUGHT GALLERY ITEMS -->
-<script type="text/javascript" src="/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="jquery.fancybox.min.js"></script>
 </body>
 </html>
