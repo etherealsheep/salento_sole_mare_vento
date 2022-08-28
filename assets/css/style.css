@@ -41,11 +41,11 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid orange;
+    border-bottom: 1px solid chocolate;
 }
 
 .active {
-    border-bottom: 1px solid orange;
+    border-bottom: 1px solid chocolate;
 }
 
 /* villa sticchi image */
@@ -74,4 +74,26 @@ h1, h2 {
 
 .what_to_expect {
     text-align: center;
+}
+
+/* FOOTER STYLE */
+
+footer {
+    padding: 0;
+    height: 150px;
+}
+
+#social-networks {
+    text-align: center;
+}
+
+#social-networks li {
+    list-style-type: none;
+    display: inline;
+}
+
+#social-networks i {
+    font-size: 200%;
+    color: chocolate;
+    padding: 6%;
 }
