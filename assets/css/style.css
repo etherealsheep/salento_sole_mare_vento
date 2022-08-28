@@ -100,17 +100,13 @@ hr {
     width: 33%;
     float: left;
     padding-top: 10px;
-    background-color: chocolate;
-    border-radius: 8px;
 }
 
 #salento_life_left > h3 {
-    color: whitesmoke;
     text-align: center;
 }
 
 #salento_life_left > p {
-    color: whitesmoke;
     text-align: justify;
     padding-left: 10px;
     padding-right: 10px;
@@ -120,16 +116,20 @@ hr {
     width: 33%;
     margin: 0 auto;
     padding-top: 10px;
+	background-color: chocolate;
+    border-radius: 8px;
 }
 
 #salento_life_center > h3 {
     text-align: center;
+	color: whitesmoke;
 }
 
 #salento_life_center > p {
     text-align: justify;
     padding-left: 10px;
     padding-right: 10px;
+	color: whitesmoke;
 }
 
 /* BORDER RADIUS - REFERENCE https://www.w3schools.com/css/css3_borders.asp */
@@ -137,17 +137,13 @@ hr {
     width: 33%;
     float: right;
     padding-top: 10px;
-    background-color: chocolate;
-    border-radius: 8px;
 }
 
 #salento_life_right > h3 {
-    color: whitesmoke;
     text-align: center;
 }
 
 #salento_life_right > p {
-    color: whitesmoke;
     text-align: justify;
     padding-left: 10px;
     padding-right: 10px;
@@ -158,6 +154,15 @@ hr {
 
 .must_see_h2 {
     text-align: center;
+	color: whitesmoke;
+	background-color: chocolate;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 0 ;
+}
+
+.container {
+	background-color: chocolate;
 }
 
 .clear {
@@ -173,7 +178,6 @@ hr {
 	-ms-grid-rows: 5vw 10px 5vw 10px 5vw 10px 5vw 10px 5vw 10px 5vw 10px 5vw 10px 5vw;
 	grid-template-rows: repeat(8, 5vw);
 	grid-gap: 10px;
-	margin-top: 10px;
 }
 
 #gallery>*:nth-child(1) {
@@ -584,6 +588,10 @@ hr {
 /* END OF SECTION MUST SEE */
 
 /* SECTION CONTACT ME */
+.contact_me_h2 {
+    text-align: center;
+}
+
 .contact_me_container{
 	width: 360px;
 	height: 400px;
@@ -616,7 +624,7 @@ hr {
 	width: 360px;
 	height: auto;
 	margin-top: 10px;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 .iconBox {
