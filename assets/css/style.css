@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Ubuntu&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Ubuntu&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Ubuntu:wght@500&display=swap');
 
 body {
     margin: 0;
@@ -9,57 +10,75 @@ body {
 
 /* heading and logo */
 
-h1, h2 {
+h1, h2, h3, h4 {
     font-family: ubuntu, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: chocolate;
 }
 
+/* text and separator */
+
+p {
+    color: chocolate;
+}
+
+/* https://www.w3schools.com/howto/howto_css_style_hr.asp */
+
+hr {
+    border: 2px solid chocolate;
+    margin: 0;
+}
+
+/* NAVIGATION */
+
 #logo {
     float: left;
     margin-left: 40px;
     font-size: 300%;
-    line-height: 50px;
-    color: white;
+    margin: 0;
+    padding-left: 15px;
+    color: whitesmoke;
 }
 
 #menu {
-    font-size: 110%;
-    line-height: 50px;
-}
-
-#menu li {
-    float: right;
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
     list-style-type: none;
-    margin-right: 15px;
+    overflow: hidden;
+    background-color: rgba(210, 105, 30, 0.7)
 }
 
-#menu a {
+li {
+    float: right;
+  }
+  
+li a {
+    display: block;
+    color: whitesmoke;
+    padding: 10px 12px;
+    text-align: center;
     text-decoration: none;
-    color: white;
 }
 
-#menu a:hover {
-    border-bottom: 1px solid chocolate;
+li a:hover {
+    background-color: peru;
 }
 
-.active {
-    border-bottom: 1px solid chocolate;
-}
-
-/* villa sticchi image */
-#roca {
-	background-image: url('../images/roca-salento.webp ');
+/* IMAGE VILLA STICCHI */
+#santa_cesarea {
+	background-image: url('../images/santa_cesarea.jpeg');
 	min-height: 300px;
 	max-width: 100%;
 	height: auto;
-	background-position: center;
+	background-position-y: -1cm;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
 }
 
+/* SECTION HOME - IL SALENTO */
 /* reference W3School: https://www.w3schools.com/css/css_align.asp */
 #il_salento_div {
     margin: auto;
@@ -72,12 +91,12 @@ h1, h2 {
     padding-bottom: 5px;
 }
 
-.what_to_expect {
+/* SECTION ONE - SALENTO'S LIFE */
+.salento_life {
     text-align: center;
 }
 
 /* FOOTER STYLE */
-
 footer {
     padding: 0;
     height: 150px;
