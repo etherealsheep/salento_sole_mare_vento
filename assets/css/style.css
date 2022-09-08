@@ -687,19 +687,35 @@ hr {
 
 /*END OF FOOTER STYLE */
 
-
-
-
-@media screen (max-width: 375px) and (max-width: 600px) #santa_cesarea {
-	min-height: 200px;
-	width: 100%;
-	height: auto;
-	background position: center;
-	background-repeat: no-repeat;
-	background-size: contain;
-	position: relative;
+/* For small screen sizes below 800px width */
+@media screen and (max-width: 800px) {
+	#santa_cesarea {
+		min-height: 200px;
+		width: 100%;
+		height: auto;
+		background-position: center;
+	}
 
 	#salento_life_left {
 		width: 100%;
 	}
+
+	#salento_life_right {
+		width: 100%;
+	}
+
+}
+
+/* For small screen sizes below 500px width */
+@media screen and (max-width: 500px) {
+	.contact_me_container {
+		width: 360px;
+		height: 400px;
+		padding-bottom: 20px;
+		top: 50%;
+		left: 50%;
+		margin: auto;
+		padding: 15px 10px 10px 15px;
+	}
+
 }
