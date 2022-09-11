@@ -12,3 +12,18 @@ This website is made up of the following sections:
 3. Must See - A list of places not to be missed
 4. Form to sign up to Salentu, Sule, Mare e Ientu newsletter
 
+
+
+
+### **Lighthouse**
+
+Lighthouse is a feature of Google Chrome developer tools and is used to assess the performance of the website and its features. I achieved the following result, as you can see below:
+
+![](docs/images/lighthouse_report.png)
+
+### **HTML and CSS Validation**
+
+I validated both my HTML and CSS code multiple times whilst building the website. There were 0 errors found. 
+
+![](docs/images/css_validation_no_errors.png)
+![](docs/images/html_validation_no_errors.png)
