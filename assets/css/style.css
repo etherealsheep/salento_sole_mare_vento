@@ -86,7 +86,6 @@ hr {
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
-	background-color: chocolate;
 }
 
 /* END OF NAVIGATION STYLE */
@@ -154,9 +153,18 @@ hr {
 	padding-right: 10px;
 }
 
+.recipe {
+	font-weight: bolder;
+	font-size: large;
+	margin-bottom: 0;
+}
+
 /*END OF SECTION SALENTO LIFE */
 
 /* SECTION MUST SEE */
+#must_see {
+	background-color: chocolate;
+}
 
 .must_see_h2 {
 	text-align: center;
@@ -165,6 +173,10 @@ hr {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	margin: 0;
+}
+
+.list {
+	color: whitesmoke;
 }
 
 .container {
