@@ -259,6 +259,8 @@ hr {
 /* SECTION CONTACT ME */
 .contact_me_h2 {
 	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 5px;
 }
 
 .contact_me_container {
