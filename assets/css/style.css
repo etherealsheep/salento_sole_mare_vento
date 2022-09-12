@@ -347,6 +347,12 @@ hr {
 }
 
 /*END OF FOOTER STYLE */
+/* For small screen sizes below 910px width */
+@media screen and (max-width: 910px) {
+	#logo {
+		font-size: 140%
+	}
+}
 
 /* For small screen sizes below 800px width */
 @media screen and (max-width: 800px) {
@@ -379,4 +385,11 @@ hr {
 		padding: 15px 10px 10px 15px;
 	}
 
+}
+
+/* For small screen sizes below 430px width */
+@media screen and (max-width: 430px) {
+	#logo {
+		font-size: 100%
+	}
 }
