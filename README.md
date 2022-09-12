@@ -1,4 +1,4 @@
-# Salentu, Sule, Mare e Ientu
+# Salentu: Sule, Mare e Ientu
 
 [Visit the website here](https://etherealsheep.github.io/salento_sole_mare_vento/)
 
@@ -24,7 +24,6 @@ The user goals of this website are:
 2. As a recurring or first-time visitor, I want to find recommendations from a trusted source for restaurants/hotels/products.
 3. As a first-time user, I want to be able to sign up to directly receive content via a newsletter.
 ---
-
 ## UX
 
 ### **Strategy**
@@ -42,7 +41,7 @@ What these users would be looking for:
 * Recommendations about typical food
 
 This website will offer all of these things whilst also allowing for intuitive navigation and comfortability of use. An effort was taken to not provide an overwhelming amount of information at first glance as this is often the reason people are put off with travel guides.
-
+---
 ### **Scope**
 
 In order to achieve the desired user & business goals, the following features will be included in this release:
@@ -55,18 +54,17 @@ In order to achieve the desired user & business goals, the following features wi
 - Gallery of images from my last trip in Salento
 - Newsletter sign up form
 - Links to affiliate social media pages
-
+---
 ### **Structure** 
 
 This is a single-page website to allow for desired flow; the navigation bar at the top allows for users to easily move to whatever section of the site they are interested in or they can simply scroll through the information as it is displayed.
 I chose the following order for the information 'Home > Salento Life > Must See > Contact Me', as I felt this would allow the information to be digested in the best way. There is a concise review of Salento at the beginning before providing some information about the local weather and food. After this, a gallery of pictures is provided to inspire future traveler and encourage old traveler to come back. The last section is a simple sign up form for users to sign up to the Salentu, Sule, Mare e Ientu newsletter.
-
-### **Surface**
+---
+### **Appearance**
 
 I chose a colour palette based around dark orange because this is a warm color and it reminds me of the warm temperature of Salento.
 I want this to be helpful for the users to have a sense of what they will get travelling in a warm place like Salento.
 ---
-
 ## Technologies Used 
 
 I have used several technologies that have enabled this design to work:
@@ -92,26 +90,61 @@ I have used several technologies that have enabled this design to work:
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
     - Used to validate all CSS code written and used in this webpage.
 ---
+## **Features**
+This webpage is fully responsive, designed to work with different devices and screen size.
+The page is divided in four sections listed in the navigation bar.
 
+### *Navbar*
+t is positioned at the top of the page. The header image is bright and to keep it more visible, I opted for the orange backround of the navigation bar that was not extended to the full length of the page.
+
+### *Home*
+In this section, I provide the definition of Salento, which is not a real region in Italy and a tourist could be confused.
+I wanted to keep this section very clean and easy to read using only an H2 element and paragraphs.
+
+### *Salento Life*
+This section is separated in two parts, with high contrast, to keep both parts clearly visible and understandable.
+Also the structure is simple, the main DIV has been separated by two DIV elements: The Mediterranean and The Food; some icons added to make the text more captivating.
+I wanted to give an idea about the lifestyle in Salento.
+
+### *Must See*
+This section includes a list of place to visit during a short trip, the most iconic and characteristic places to visit.
+An high contrast with the rest of the webpage was chosento emphasize the importance and capture the attention.
+To make the images more appealing the image gallery has been created with CSS grid and Fancybox.
+
+### *Contact Me*
+This is a signup form that will allow the user to sign up for the newsletter.
+The form uses two text input, one email input and a submit button.
+They are all required therefore all information is necessary to submit the form.
+The colour pallet used is to keep consistency with the webpage.
+---
+### **Testing**
+
+I tested the webpage wth the following browsers: Chrome, Firefox, Safari, Edge
+It works with all of them.
+
+I used devtools to test and confirm that this project is responsive, it looks good on all standard screen sizes.
+
+I tested and confirmed that the different sections are all readable and wasy to understand and navigate.
+
+I have tested and confirmed that the signup form works well: requires entries in every field and it only accept email in the email field.
+The Submit button works.
+---
+### **Known bugs and fixes**
+
+I did not find any bug during my work.
+---
 ### **Lighthouse**
 
 Lighthouse is a feature of Google Chrome developer tools and is used to assess the performance of the website and its features. I achieved the following result, as you can see below:
 
 ![](docs/images/lighthouse_report.png)
 ---
-
 ### **HTML and CSS Validation**
 
 I validated both my HTML and CSS code multiple times whilst building the website. There were 0 errors found. 
 
 ![](docs/images/html_validation_no_errors.png)
 ![](docs/images/css_validation_no_errors.png)
-
----
-### **Known bugs and fixes**
-
-I did not find any bug during my work.
-
 ---
 ## Deployment
 
@@ -148,7 +181,6 @@ Cloning your repository will allow you to download a local version of the reposi
 4. Now open Gitpod & select the directory location where you would like the clone created
 5. In the terminal type 'git clone' & then paste the link you copied in GitHub
 6. Press enter and your local clone will be created.
-
 ---
 ## Credits
 
@@ -170,7 +202,6 @@ The below websites were used for the content:
 
 - The images in the website has been taken during my last trip in Salento.
 - The image in the navigation bar, Villa Sticchi, is the only exception, because it is actually under renovation, I found an image from the internet.
-
 ---
 ## Acknowledgements
 
