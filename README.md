@@ -32,7 +32,7 @@ The user goals of this website are:
 
 Considering the core UX principles I first started to think about the strategy for this website and defined who the target users would be and what features/technologies they would want.
 
-La Petite Traveller's target users are:
+Salentu. Sule, Mare e Ientu target users are:
 * Aged 18-60
 * People interested in travelling
 * Have an interest in visiting South Italy
@@ -84,9 +84,9 @@ I have used several technologies that have enabled this design to work:
 - [CSS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
     - Used to style all the web content across the project. 
 - [Google Fonts](https://fonts.google.com/)
-    - Used to obtain the fonts linked in the header, fonts used were Playfair and Cookie
+    - Used to obtain the fonts in the website.
 - [Font Awesome](https://fontawesome.com/)
-    - Used to obtain the social media icons used in the footer and the icons in La Petite Review.
+    - Used to obtain icons in the section "The Mediterranean"
 - [Google Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
     - Used as a primary method of fixing spacing issues, finding bugs, and testing responsiveness across the project.
 - [GitHub](https://github.com/)
@@ -133,14 +133,11 @@ The colour pallet used is to keep consistency with the webpage.
 
 ### **Testing**
 
-I tested the webpage wth the following browsers: Chrome, Firefox, Safari, Edge
+- I tested the webpage wth the following browsers: Chrome, Firefox, Safari, Edge
 It works with all of them.
-
-I used devtools to test and confirm that this project is responsive, it looks good on all standard screen sizes.
-
-I tested and confirmed that the different sections are all readable and wasy to understand and navigate.
-
-I have tested and confirmed that the signup form works well: requires entries in every field and it only accept email in the email field.
+- I used devtools to test and confirm that this project is responsive, it looks good on all standard screen sizes.
+- I tested and confirmed that the different sections are all readable and wasy to understand and navigate.
+- I have tested and confirmed that the signup form works well: requires entries in every field and it only accept email in the email field.
 The Submit button works.
 
 ---
