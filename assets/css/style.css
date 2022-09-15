@@ -206,52 +206,52 @@ hr {
 }
 
 #gallery__item--1 {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 4;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 4;
 }
 
 #gallery__item--2 {
-    grid-column-start: 5;
-    grid-column-end: 7;
-    grid-row-start: 4;
-    grid-row-end: 7;
+	grid-column-start: 5;
+	grid-column-end: 7;
+	grid-row-start: 4;
+	grid-row-end: 7;
 }
 
 #gallery__item--3 {
-    grid-column-start: 5;
-    grid-column-end: 9;
-    grid-row-start: 1;
-    grid-row-end: 4;
+	grid-column-start: 5;
+	grid-column-end: 9;
+	grid-row-start: 1;
+	grid-row-end: 4;
 }
 
 #gallery__item--4 {
-    grid-column-start: 7;
-    grid-column-end: 9;
-    grid-row-start: 4;
-    grid-row-end: 9;
+	grid-column-start: 7;
+	grid-column-end: 9;
+	grid-row-start: 4;
+	grid-row-end: 9;
 }
 
 #gallery__item--5 {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 4;
-    grid-row-end: 9;
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 4;
+	grid-row-end: 9;
 }
 
 #gallery__item--6 {
-    grid-column-start: 5;
-    grid-column-end: 7;
-    grid-row-start: 7;
-    grid-row-end: 9;
+	grid-column-start: 5;
+	grid-column-end: 7;
+	grid-row-start: 7;
+	grid-row-end: 9;
 }
 
 #gallery__item--7 {
-    grid-column-start: 3;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 4;
+	grid-column-start: 3;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 4;
 }
 
 /* END OF SECTION MUST SEE */
@@ -265,7 +265,7 @@ hr {
 
 .contact_me_container {
 	width: 360px;
-	height: 400px;
+	height: 230px;
 	padding-bottom: 20px;
 	top: 50%;
 	left: 50%;
@@ -329,6 +329,12 @@ hr {
 	color: black;
 }
 
+.iframe_container {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
 /* END OF SECTION CONTACT ME */
 
 /* FOOTER STYLE */
@@ -381,12 +387,12 @@ hr {
 @media screen and (max-width: 500px) {
 	.contact_me_container {
 		width: 360px;
-		height: 400px;
+		height: 230px;
 		padding-bottom: 20px;
 		top: 50%;
 		left: 50%;
 		margin: auto;
-		padding: 15px 10px 10px 15px;
+		padding: 5px 5px 5px 5px;
 	}
 
 }
