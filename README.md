@@ -4,25 +4,26 @@
 
 ![](docs/images/amiresponsive_image.png)
 
-Created to provide guidance for people interested in visiting Salento, which is becoming a very popular area. This website was made for educational purposes only.
+This site has been created with the idea of providing guidance and inspire people interested in visiting Salento.
+Salento is becoming a very popular area all over the world. This website was made for educational purposes only.
 
-This website is made up of the following sections:
-1. Home/Introduction
+This website consists of the following sections:
+1. Home
 2. Salento Life
-3. Must See - A list of places not to be missed
-4. Form to sign up to Salentu, Sule, Mare e Ientu newsletter
+3. Must See (A list of places not to be missed)
+4. Contact Me (form to sign up to "Salentu, Sule, Mare e Ientu" newsletter)0
 
 The business goals for this website are:
 
 1. Provide an idea of what to find if you choose to visit Salento.
-2. Inspire people traveling in Salento, and encourage tourism.
-3. Build a database of users to send future information & content to, thus furthering the reach of the author.
+2. Inspire people traveling in Salento and encourage tourism.
+3. Building a database, a network of contacts with users to send future information and contents.
 
 The user goals of this website are:
 
-1. As a fisrt ime visitor, I want to give you an idea of the best place to visit and encourage trying local food.
-2. As a recurring or first-time visitor, I want to find recommendations from a trusted source for restaurants/hotels/products.
-3. As a first-time user, I want to be able to sign up to directly receive content via a newsletter.
+1. For the first-time visitor: I want to give you an idea of the best places to visit and encourage trying local, typical food.
+2. For the first-time user: I want you to be able to sign up to directly receive content via a newsletter.
+3. For the recurring or first-time visitor: I want to find recommendations from a trusted source for restaurants/hotels/products.
 
 ---
 
@@ -65,6 +66,12 @@ In order to achieve the desired user & business goals, the following features wi
 
 This is a single-page website to allow for desired flow; the navigation bar at the top allows for users to easily move to whatever section of the site they are interested in or they can simply scroll through the information as it is displayed.
 I chose the following order for the information 'Home > Salento Life > Must See > Contact Me', as I felt this would allow the information to be digested in the best way. There is a concise review of Salento at the beginning before providing some information about the local weather and food. After this, a gallery of pictures is provided to inspire future traveler and encourage old traveler to come back. The last section is a simple sign up form for users to sign up to the Salentu, Sule, Mare e Ientu newsletter.
+
+[Wireframes](docs/Wireframe%20(Desktop).pdf)
+
+asdasd
+
+[Wireframes](docs/Wireframe%20(Mobile).pdf)
 
 ---
 
@@ -152,7 +159,11 @@ I did not find any bug during my work.
 
 Lighthouse is a feature of Google Chrome developer tools and is used to assess the performance of the website and its features. I achieved the following result, as you can see below:
 
-![](docs/images/lighthouse_report.png)
+![](docs/images/lighthouse_desktop.png)
+
+asdasdas
+
+![](docs/images/lighthouse_mobile.png)
 
 ---
 
@@ -161,6 +172,9 @@ Lighthouse is a feature of Google Chrome developer tools and is used to assess t
 I validated both my HTML and CSS code multiple times whilst building the website. There were 0 errors found. 
 
 ![](docs/images/html_validation_no_errors.png)
+
+asdasdasd
+
 ![](docs/images/css_validation_no_errors.png)
 
 ---
@@ -228,6 +242,6 @@ The below websites were used for the content:
 
 ## Acknowledgements
 
-I would like to thank my course mentor Guido Cecilio for his support and guidance throughout the course of the project.
+I would like to thank my course mentor Guido Cecilio for his support and guidance throughout the course of the project, he motivated and inspired me to do better and better.
 
 ---
