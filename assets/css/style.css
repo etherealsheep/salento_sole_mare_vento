@@ -1,373 +1,311 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Ubuntu:wght@500&display=swap');
-
-body {
-	margin: 0;
-	padding: 0;
-	font-family: mukta, sans-serif;
-	color: chocolate;
+ body {
+     margin: 0;
+     padding: 0;
+     font-family: mukta, sans-serif;
+     color: chocolate;
 }
-
-h1,
-h2,
-h3,
-h4 {
-	font-family: ubuntu, sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 3px;
-	color: chocolate;
+ h1, h2, h3, h4 {
+     font-family: ubuntu, sans-serif;
+     text-transform: uppercase;
+     letter-spacing: 3px;
+     color: chocolate;
 }
-
-hr {
-	border: 2px solid chocolate;
-	margin: 0;
+ hr {
+     border: 2px solid chocolate;
+     margin: 0;
 }
-
-#logo {
-	float: left;
-	margin-left: 40px;
-	font-size: 200%;
-	margin: 0 auto;
-	padding-top: 10px;
-	padding-left: 15px;
-	color: whitesmoke;
-	text-decoration: none;
+ #logo {
+     float: left;
+     margin-left: 40px;
+     font-size: 200%;
+     margin: 0 auto;
+     padding-top: 10px;
+     padding-left: 15px;
+     color: whitesmoke;
+     text-decoration: none;
 }
-
-#logo:hover {
-	color: chocolate;
+ #logo:hover {
+     color: chocolate;
 }
-
-#menu {
-	padding: 0;
-	margin: 0 auto;
-	float: right;
-	list-style-type: none;
-	overflow: hidden;
-	background-color: rgba(210, 105, 30, 0.8);
+ #menu {
+     padding: 0;
+     margin: 0 auto;
+     float: right;
+     list-style-type: none;
+     overflow: hidden;
+     background-color: rgba(210, 105, 30, 0.8);
 }
-
-#menu,
-#logo {
-	line-height: 25px;
+ #menu, #logo {
+     line-height: 25px;
 }
-
-#menu li {
-	float: right;
+ #menu li {
+     float: right;
 }
-
-#menu li a {
-	display: block;
-	color: whitesmoke;
-	padding: 10px 12px;
-	text-align: center;
-	text-decoration: none;
+ #menu li a {
+     display: block;
+     color: whitesmoke;
+     padding: 10px 12px;
+     text-align: center;
+     text-decoration: none;
 }
-
-#menu li a:hover {
-	background-color: peru;
-	color: black;
+ #menu li a:hover {
+     background-color: peru;
+     color: black;
 }
-
-#santa_cesarea {
-	background-image: url('../images/santa_cesarea.webp');
-	min-height: 300px;
-	max-width: 100%;
-	height: auto;
-	background-position-y: -1cm;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
+ #santa_cesarea {
+     background-image: url('../images/santa_cesarea.webp');
+     min-height: 300px;
+     max-width: 100%;
+     height: auto;
+     background-position-y: -1cm;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
 }
-
-#salento_div {
-	margin: auto;
-	text-align: center;
-	font-size: 20px;
-	width: 80%;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 5px;
-	padding-bottom: 5px;
+ #salento_div {
+     margin: auto;
+     text-align: center;
+     font-size: 20px;
+     width: 80%;
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 5px;
+     padding-bottom: 5px;
 }
-
-#salento_life {
-	height: 600px;
+ #salento_life {
+     height: 600px;
 }
-
-.salento_life_h2 {
-	text-align: center;
+ .salento_life_h2 {
+     text-align: center;
 }
-
-#salento_life_left {
-	width: 49%;
-	float: left;
-	margin-left: 3px;
-	padding-top: 10px;
-	margin-bottom: 10px;
-	background-color: chocolate;
-	border-radius: 8px;
+ #salento_life_left {
+     width: 49%;
+     float: left;
+     margin-left: 3px;
+     padding-top: 10px;
+     margin-bottom: 10px;
+     background-color: chocolate;
+     border-radius: 8px;
 }
-
-#salento_life_left>h3 {
-	text-align: center;
-	color: whitesmoke;
+ #salento_life_left>h3 {
+     text-align: center;
+     color: whitesmoke;
 }
-
-#salento_life_left>p {
-	text-align: justify;
-	padding-left: 10px;
-	padding-right: 10px;
-	color: whitesmoke;
+ #salento_life_left>p {
+     text-align: justify;
+     padding-left: 10px;
+     padding-right: 10px;
+     color: whitesmoke;
 }
-
-#salento_life_right {
-	width: 49%;
-	float: right;
-	margin-right: 3px;
-	padding-top: 10px;
+ #salento_life_right {
+     width: 49%;
+     float: right;
+     margin-right: 3px;
+     padding-top: 10px;
 }
-
-#salento_life_right>h3 {
-	text-align: center;
+ #salento_life_right>h3 {
+     text-align: center;
 }
-
-#salento_life_right>p {
-	text-align: justify;
-	padding-left: 10px;
-	padding-right: 10px;
+ #salento_life_right>p {
+     text-align: justify;
+     padding-left: 10px;
+     padding-right: 10px;
 }
-
-.recipe {
-	font-weight: bolder;
-	font-size: large;
-	margin-bottom: 0;
+ .recipe {
+     font-weight: bolder;
+     font-size: large;
+     margin-bottom: 0;
 }
-
-#must_see {
-	background-color: chocolate;
-	padding-bottom: 2px;
+ #must_see {
+     background-color: chocolate;
+     padding-bottom: 2px;
 }
-
-.must_see_h2 {
-	text-align: center;
-	color: whitesmoke;
-	background-color: chocolate;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	margin: 0;
+ .must_see_h2 {
+     text-align: center;
+     color: whitesmoke;
+     background-color: chocolate;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     margin: 0;
 }
-
-.list {
-	color: whitesmoke;
+ .list {
+     color: whitesmoke;
 }
-
-.container {
-	background-color: chocolate;
-	margin: 10px;
+ .container {
+     background-color: chocolate;
+     margin: 10px;
 }
-
-.clear {
-	clear: both;
+ .clear {
+     clear: both;
 }
-
-#gallery {
-	display: grid;
-	grid-template-columns: repeat(8, 1fr);
-	grid-template-rows: repeat(8, 5vw);
-	grid-gap: 10px;
+ #gallery {
+     display: grid;
+     grid-template-columns: repeat(8, 1fr);
+     grid-template-rows: repeat(8, 5vw);
+     grid-gap: 10px;
 }
-
-.fancybox-photo {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	display: block;
+ .fancybox-photo {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     display: block;
 }
-
-#gallery__item--1 {
-	grid-column-start: 1;
-	grid-column-end: 3;
-	grid-row-start: 1;
-	grid-row-end: 4;
+ #gallery__item--1 {
+     grid-column-start: 1;
+     grid-column-end: 3;
+     grid-row-start: 1;
+     grid-row-end: 4;
 }
-
-#gallery__item--2 {
-	grid-column-start: 5;
-	grid-column-end: 7;
-	grid-row-start: 4;
-	grid-row-end: 7;
+ #gallery__item--2 {
+     grid-column-start: 5;
+     grid-column-end: 7;
+     grid-row-start: 4;
+     grid-row-end: 7;
 }
-
-#gallery__item--3 {
-	grid-column-start: 5;
-	grid-column-end: 9;
-	grid-row-start: 1;
-	grid-row-end: 4;
+ #gallery__item--3 {
+     grid-column-start: 5;
+     grid-column-end: 9;
+     grid-row-start: 1;
+     grid-row-end: 4;
 }
-
-#gallery__item--4 {
-	grid-column-start: 7;
-	grid-column-end: 9;
-	grid-row-start: 4;
-	grid-row-end: 9;
+ #gallery__item--4 {
+     grid-column-start: 7;
+     grid-column-end: 9;
+     grid-row-start: 4;
+     grid-row-end: 9;
 }
-
-#gallery__item--5 {
-	grid-column-start: 1;
-	grid-column-end: 5;
-	grid-row-start: 4;
-	grid-row-end: 9;
+ #gallery__item--5 {
+     grid-column-start: 1;
+     grid-column-end: 5;
+     grid-row-start: 4;
+     grid-row-end: 9;
 }
-
-#gallery__item--6 {
-	grid-column-start: 5;
-	grid-column-end: 7;
-	grid-row-start: 7;
-	grid-row-end: 9;
+ #gallery__item--6 {
+     grid-column-start: 5;
+     grid-column-end: 7;
+     grid-row-start: 7;
+     grid-row-end: 9;
 }
-
-#gallery__item--7 {
-	grid-column-start: 3;
-	grid-column-end: 5;
-	grid-row-start: 1;
-	grid-row-end: 4;
+ #gallery__item--7 {
+     grid-column-start: 3;
+     grid-column-end: 5;
+     grid-row-start: 1;
+     grid-row-end: 4;
 }
-
-.contact_me_h2 {
-	text-align: center;
-	margin-top: 30px;
-	margin-bottom: 5px;
+ .contact_me_h2 {
+     text-align: center;
+     margin-top: 30px;
+     margin-bottom: 5px;
 }
-
-.contact_me_container {
-	width: 360px;
-	height: 230px;
-	padding-bottom: 20px;
-	top: 50%;
-	left: 50%;
-	margin: auto;
-	padding: 5px 5px 5px 5px;
+ .contact_me_container {
+     width: 360px;
+     height: 230px;
+     padding-bottom: 20px;
+     top: 50%;
+     left: 50%;
+     margin: auto;
+     padding: 5px 5px 5px 5px;
 }
-
-.fl {
-	float: left;
-	width: 110px;
-	line-height: 35px;
+ .fl {
+     float: left;
+     width: 110px;
+     line-height: 35px;
 }
-
-.fontLabel {
-	color: chocolate;
+ .fontLabel {
+     color: chocolate;
 }
-
-.fr {
-	float: right;
+ .fr {
+     float: right;
 }
-
-.clr {
-	clear: both;
+ .clr {
+     clear: both;
 }
-
-.box {
-	width: 360px;
-	height: auto;
-	margin-top: 10px;
-	font-size: 16px;
+ .box {
+     width: 360px;
+     height: auto;
+     margin-top: 10px;
+     font-size: 16px;
 }
-
-.iconBox {
-	height: 41px;
-	width: 41px;
-	line-height: 40px;
-	text-align: center;
-	background: chocolate;
-	color: black;
+ .iconBox {
+     height: 41px;
+     width: 41px;
+     line-height: 40px;
+     text-align: center;
+     background: chocolate;
+     color: black;
 }
-
-.textBox {
-	height: 35px;
-	width: 200px;
-	border-color: chocolate;
+ .textBox {
+     height: 35px;
+     width: 200px;
+     border-color: chocolate;
 }
-
-.submit {
-	float: right;
-	border: none;
-	color: white;
-	width: 110px;
-	height: 35px;
-	background: chocolate;
-	text-transform: uppercase;
-	cursor: pointer;
+ .submit {
+     float: right;
+     border: none;
+     color: white;
+     width: 110px;
+     height: 35px;
+     background: chocolate;
+     text-transform: uppercase;
+     cursor: pointer;
 }
-
-.submit:hover {
-	background-color: peru;
-	color: black;
+ .submit:hover {
+     background-color: peru;
+     color: black;
 }
-
-.iframe_container {
-	display: flex;
-	justify-content: center;
-	width: 100%;
+ .iframe_container {
+     display: flex;
+     justify-content: center;
+     width: 100%;
 }
-
-.footer {
-	width: 100%;
-	background-color: chocolate;
-	position: absolute;
-	text-align: center;
+ .footer {
+     width: 100%;
+     background-color: chocolate;
+     position: absolute;
+     text-align: center;
 }
-
-.social-networks li {
-	list-style-type: none;
-	display: inline;
-	padding: 0% 5% 0% 5%;
+ .social-networks li {
+     list-style-type: none;
+     display: inline;
+     padding: 0% 5% 0% 5%;
 }
-
-.social-networks li a {
-	color: whitesmoke;
-	font-size: 30px;
+ .social-networks li a {
+     color: whitesmoke;
+     font-size: 30px;
 }
-
-@media screen and (max-width: 910px) {
-	#logo {
-		font-size: 140%
-	}
+ @media screen and (max-width: 910px) {
+     #logo {
+         font-size: 140% 
+    }
 }
-
-@media screen and (max-width: 800px) {
-	#santa_cesarea {
-		min-height: 200px;
-		width: 100%;
-		height: auto;
-		background-position: center;
-	}
-
-	#salento_life_left {
-		width: 100%;
-	}
-
-	#salento_life_right {
-		width: 100%;
-	}
-
+ @media screen and (max-width: 800px) {
+     #santa_cesarea {
+         min-height: 200px;
+         width: 100%;
+         height: auto;
+         background-position: center;
+    }
+     #salento_life_left {
+         width: 100%;
+    }
+     #salento_life_right {
+         width: 100%;
+    }
 }
-
-@media screen and (max-width: 500px) {
-	.contact_me_container {
-		width: 360px;
-		height: 230px;
-		padding-bottom: 20px;
-		top: 50%;
-		left: 50%;
-		margin: auto;
-		padding: 5px 5px 5px 5px;
-	}
-
+ @media screen and (max-width: 500px) {
+     .contact_me_container {
+         width: 360px;
+         height: 230px;
+         padding-bottom: 20px;
+         top: 50%;
+         left: 50%;
+         margin: auto;
+         padding: 5px 5px 5px 5px;
+    }
 }
-
-@media screen and (max-width: 430px) {
-	#logo {
-		font-size: 100%
-	}
+ @media screen and (max-width: 430px) {
+     #logo {
+         font-size: 100% 
+    }
 }
