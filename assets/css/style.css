@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Ubuntu:wght@500&display=swap');
  body {
-     margin: 0;
+     max-width: 1200px;
+     margin: 0 auto;
      padding: 0;
      font-family: mukta, sans-serif;
      color: chocolate;
@@ -257,6 +258,7 @@
      width: 100%;
 }
  .footer {
+     max-width: 1200px;
      width: 100%;
      background-color: chocolate;
      position: absolute;
