@@ -101,7 +101,11 @@ I have used several technologies that have enabled this design to work:
 - [Gitpod](https://www.gitpod.io/)
     - Used as the development environment.
 - [Fancybox](https://fancyapps.com/fancybox/3/)
-    - Used to format my Sri Lanka photo gallery.
+    - Used to format my Salento. Sule, Mare e Ientu photo gallery.
+- [Lucidchart](https://www.lucidchart.com/)
+    - Used to create Wireframes documents.
+- [CSS Formatter](https://www.cleancss.com/)
+    - Used to have a better CSS formatted code.
 - [W3C Markup Validation Service](https://validator.w3.org/) 
     - Used to validate all HTML code written and used in this webpage.
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
@@ -114,7 +118,7 @@ This webpage is fully responsive, designed to work with different devices and sc
 The page is divided in four sections listed in the navigation bar.
 
 ### *Navbar*
-t is positioned at the top of the page. The header image is bright and to keep it more visible, I opted for the orange backround of the navigation bar that was not extended to the full length of the page.
+It is positioned at the top of the page. The header image is bright and to keep it more visible, I opted for the orange backround of the navigation bar that was not extended to the full length of the page.
 
 ### *Home*
 In this section, I provide the definition of Salento, which is not a real region in Italy and a tourist could be confused.
