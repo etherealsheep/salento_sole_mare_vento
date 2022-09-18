@@ -11,7 +11,7 @@ This website consists of the following sections:
 1. Home
 2. Salento Life
 3. Must See (A list of places not to be missed)
-4. Contact Me (form to sign up to "Salentu, Sule, Mare e Ientu" newsletter)0
+4. Contact Me (form to sign up to "Salentu, Sule, Mare e Ientu" newsletter)
 
 The business goals for this website are:
 
@@ -31,17 +31,17 @@ The user goals of this website are:
 
 ### **Strategy**
 
-Considering the core UX principles I first started to think about the strategy for this website and defined who the target users would be and what features/technologies they would want.
+Considering the core UX principles, the first think I did was thinking about the strategy for this website, defining the target users and what features/technologies they would want.
 
 Salentu. Sule, Mare e Ientu target users are:
 * Aged 18-60
-* People interested in travelling
+* People interested in travelling and discover about: culture, history, food, beaches, festivals, music
 * Have an interest in visiting South Italy
 
 What these users would be looking for:
 * Clear, concise, easy-to-find information
 * Beautiful photos that provide inspiration and make the destinations look desirable
-* Recommendations about typical food
+* Recommendations about place to visit
 
 This website will offer all of these things whilst also allowing for intuitive navigation and comfortability of use. An effort was taken to not provide an overwhelming amount of information at first glance as this is often the reason people are put off with travel guides.
 
