@@ -139,6 +139,7 @@ I have used several technologies that have enabled this design to work:
 ---
 
 ## **Testing**
+
 - I tested the webpage with the following browsers: Chrome, Firefox, Safari, Edge, Opera. It works with all of them.
 - I used devtools to test and confirm that this project is responsive, it looks good on all standard screen sizes.
 - I tested and confirmed that the different sections are all readable and wasy to understand and navigate.
@@ -146,6 +147,7 @@ I have used several technologies that have enabled this design to work:
 The Submit button works.
 
 ### **User Stories**
+
 1. **For the first-time visitor: I want to give you an idea of the best places to visit and encourage trying local, typical food.**
 As soon as you enter the page you can easily see within the navbar the 'Salento Life' and 'Must See' sections; upon clicking this you are taken to a section filled with tips on various elements.
 
@@ -233,7 +235,6 @@ Cloning your repository will allow you to download a local version of the reposi
 ---
 
 ## **Credits**
-
 
 The following website were used for research and guidance:
 
