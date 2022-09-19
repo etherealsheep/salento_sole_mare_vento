@@ -174,11 +174,11 @@ Lighthouse is a feature of Google Chrome developer tools and is used to assess t
 
 For Mobile:
 
-![](docs/images/lighthouse_desktop.png)
+![](docs/images/lighthouse_mobile.png)
 
 For Desktop:
 
-![](docs/images/lighthouse_mobile.png)
+![](docs/images/lighthouse_desktop.png)
 
 ---
 
