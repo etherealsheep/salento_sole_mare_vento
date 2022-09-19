@@ -23,11 +23,11 @@ The user goals of this website are:
 
 1. For the first-time visitor: I want to give you an idea of the best places to visit and encourage trying local, typical food.
 2. For the first-time user: I want you to be able to sign up to directly receive content via a newsletter.
-3. For the recurring or first-time visitor: I want to find recommendations from a trusted source for restaurants/hotels/products.
+3. For the recurring or first-time visitor: I want to find recommendations from a trusted source for seapoints, restaurants/hotels/products based on my first 30 years living in Salento.
 
 ---
 
-## UX
+## **UX**
 
 ### **Strategy**
 
@@ -47,7 +47,7 @@ This website will offer all of these things whilst also allowing for intuitive n
 
 ---
 
-### **Scope**
+## **Scope**
 
 In order to achieve the desired user & business goals, the following features will be included in this release:
 
@@ -62,27 +62,52 @@ In order to achieve the desired user & business goals, the following features wi
 
 ---
 
-### **Structure** 
+## **Structure** 
 
 This is a single-page website to allow for desired flow; the navigation bar at the top allows for users to easily move to whatever section of the site they are interested in or they can simply scroll through the information as it is displayed.
-I chose the following order for the information 'Home > Salento Life > Must See > Contact Me', as I felt this would allow the information to be digested in the best way. There is a concise review of Salento at the beginning before providing some information about the local weather and food. After this, a gallery of pictures is provided to inspire future traveler and encourage old traveler to come back. The last section is a simple sign up form for users to sign up to the Salentu, Sule, Mare e Ientu newsletter.
+I chose the following order for the information:
+ 'Home > Salento Life > Must See > Contact Me'
+this would allow the information to be digested in the best way. There is a concise review of Salento at the beginning before providing some information about the local weather and food. After this, a gallery of pictures is provided to inspire future traveler and encourage old traveler to come back. The last section is a simple sign up form for users to sign up to the Salentu, Sule, Mare e Ientu newsletter.
 
-[Wireframes](docs/Wireframe%20(Desktop).pdf)
+There are provided two files about the wireframe structure:
 
-asdasd
-
-[Wireframes](docs/Wireframe%20(Mobile).pdf)
+- the first is about desktop [Wireframes](docs/Wireframe%20(Desktop).pdf)
+- the second is about mobile [Wireframes](docs/Wireframe%20(Mobile).pdf)
 
 ---
 
-### **Appearance**
+## **Appearance**
 
-I chose a colour palette based around dark orange because this is a warm color and it reminds me of the warm temperature of Salento.
+I chose a colour palette based around dark orange.
+The reason is because this color give me the feeling of warmth, Salento is a very hot land, and I strongly believe that orange the best color to represent it.
 I want this to be helpful for the users to have a sense of what they will get travelling in a warm place like Salento.
 
 ---
 
-## Technologies Used 
+## **Features**
+This is a fully responsive website, it has been designed mobile-first as this is the most likely way it will be viewed; the page consists of four sections listed in the navbar. Where a colour background has been used it has a slightly transparent opacity and the text is white. All of the headings use the font Ubuntu and the body text is Mukta, this consistency has been used across the website to create a coherent design.
+
+### *Navigation Bar*
+The navbar is placed on top of a responsive image which acts as a header. The image I have chosen for the header is an iconic building in Salento, Villa Sticchi, is representative of the site's theme and incorporates the color palette, orange, it immediately encourages the user to think of being on holiday.
+
+### *Home*
+The purpose of this section is to provide a brief introduction of Salento. It is not a real region of Italy and most likely the user has heard of it but is not sure what it is. A geographical description is provided to clarify this to the user. The main heading is an H2 element followed by more descriptive paragraphs.
+
+### *Salento Life*
+This section starts with an H2 heading, which is the section title and it is separated in two parts splitted vertically (two DIV elements).
+Each of the two parts has an H3 heading element followed by more descriptive paragraphs, some icons are used for better separation of paragraphs creating a more captivating look.
+For these two sections, colors has been choose to be complementary: orange background and white text for the first and white background and orange text for the second.
+In the section Salento Life I provided some information about the geography, weather, history and food.
+
+### *Must See*
+This section includes a list of place to visit during a short trip, the most iconic and characteristic places to visit. An high contrast with the rest of the webpage was chosento emphasize the importance and capture the attention. To make the images more appealing the image gallery has been created with CSS grid and Fancybox.
+
+### *Contact Me*
+This is a signup form that will allow the user to sign up for Salento. Sule, Mare e Ientu newsletter. The form uses 3 elements, 2 text inputs and an email input. They are all required therefore all information is necessary to submit the form. The colour pallet used is to keep consistency with the webpage.
+
+---
+
+## **Technologies Used** 
 
 I have used several technologies that have enabled this design to work:
 
@@ -113,79 +138,65 @@ I have used several technologies that have enabled this design to work:
 
 ---
 
-## **Features**
-This webpage is fully responsive, designed to work with different devices and screen size.
-The page is divided in four sections listed in the navigation bar.
-
-### *Navbar*
-It is positioned at the top of the page. The header image is bright and to keep it more visible, I opted for the orange backround of the navigation bar that was not extended to the full length of the page.
-
-### *Home*
-In this section, I provide the definition of Salento, which is not a real region in Italy and a tourist could be confused.
-I wanted to keep this section very clean and easy to read using only an H2 element and paragraphs.
-
-### *Salento Life*
-This section is separated in two parts, with high contrast, to keep both parts clearly visible and understandable.
-Also the structure is simple, the main DIV has been separated by two DIV elements: The Mediterranean and The Food; some icons added to make the text more captivating.
-I wanted to give an idea about the lifestyle in Salento.
-
-### *Must See*
-This section includes a list of place to visit during a short trip, the most iconic and characteristic places to visit.
-An high contrast with the rest of the webpage was chosento emphasize the importance and capture the attention.
-To make the images more appealing the image gallery has been created with CSS grid and Fancybox.
-
-### *Contact Me*
-This is a signup form that will allow the user to sign up for the newsletter.
-The form uses two text input, one email input and a submit button.
-They are all required therefore all information is necessary to submit the form.
-The colour pallet used is to keep consistency with the webpage.
-
----
-
-### **Testing**
-
-- I tested the webpage wth the following browsers: Chrome, Firefox, Safari, Edge
-It works with all of them.
+## **Testing**
+- I tested the webpage with the following browsers: Chrome, Firefox, Safari, Edge, Opera. It works with all of them.
 - I used devtools to test and confirm that this project is responsive, it looks good on all standard screen sizes.
 - I tested and confirmed that the different sections are all readable and wasy to understand and navigate.
 - I have tested and confirmed that the signup form works well: requires entries in every field and it only accept email in the email field.
 The Submit button works.
 
+### **User Stories**
+1. **For the first-time visitor: I want to give you an idea of the best places to visit and encourage trying local, typical food.**
+As soon as you enter the page you can easily see within the navbar the 'Salento Life' and 'Must See' sections; upon clicking this you are taken to a section filled with tips on various elements.
+
+![](docs/images/salento_life.png)
+
+![](docs/images/must_see.png)
+
+2. **For the first-time user: I want you to be able to sign up to directly receive content via a newsletter.**
+The 'Contact Me' button is found in the navigation bar, upon clicking this the user will be taken to this section towards the end of the page. In this section is a newsletter sign up form for the user to register their interest. The form was built using the required attribute so all fields are mandatory.
+
+![](docs/images/contact_me.png)
+
 ---
 
-### **Known bugs and fixes**
+## **Known bugs and fixes**
 
 I did not find any bug during my work.
 
 ---
 
-### **Lighthouse**
+## **Lighthouse**
 
 Lighthouse is a feature of Google Chrome developer tools and is used to assess the performance of the website and its features. I achieved the following result, as you can see below:
 
+For Mobile:
+
 ![](docs/images/lighthouse_desktop.png)
 
-asdasdas
+For Desktop:
 
 ![](docs/images/lighthouse_mobile.png)
 
 ---
 
-### **HTML and CSS Validation**
+## **HTML and CSS Validation**
 
-I validated both my HTML and CSS code multiple times whilst building the website. There were 0 errors found. 
+I validated both my HTML and CSS code multiple times whilst building the website. There were 0 errors and 0 warning found. 
+
+HTML validation:
 
 ![](docs/images/html_validation_no_errors.png)
 
-asdasdasd
+CSS validation:
 
 ![](docs/images/css_validation_no_errors.png)
 
 ---
 
-## Deployment
+## **Deployment**
 
-I deployed this website by using GitPages and following the below steps:
+I deployed this website following the below steps:
 
 *GitHub pages deployment* 
 
@@ -221,9 +232,8 @@ Cloning your repository will allow you to download a local version of the reposi
 
 ---
 
-## Credits
+## **Credits**
 
-I have used a number of resources to produce this website, where code has been used found from another source this is credited as a comment within the HTML, CSS and JS files.
 
 The following website were used for research and guidance:
 
@@ -240,11 +250,11 @@ I used code from the following resources:
 The below websites were used for the content: 
 
 - The images in the website has been taken during my last trip in Salento.
-- The image in the navigation bar, Villa Sticchi, is the only exception, because it is actually under renovation, I found an image from the internet.
+- The image in the navigation bar, Villa Sticchi, is the only exception, because it is actually under renovation, I took the image from https://www.italianostra.org/nazionale/a-santa-cesarea-sotto-la-cupola-di-villa-sticchi-si-gioca-la-dura-partita-del-vincolo/
 
 ---
 
-## Acknowledgements
+## **Acknowledgements**
 
 I would like to thank my course mentor Guido Cecilio for his support and guidance throughout the course of the project, he motivated and inspired me to do better and better.
 
